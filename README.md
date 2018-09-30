@@ -56,3 +56,5 @@ Union the result from Step 4 with the relation in the database whose name matche
 3. Run DFS-Forest on the reverse dependency graph.
 4. Find the strongly connected components (SCCs).
 5. Evaluate the rules in each component.
+
+![](images/exampleoutput.jpg)
