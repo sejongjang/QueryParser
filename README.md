@@ -50,3 +50,9 @@ Rename the relation that results from Step 3 to make it union compatible with th
 Union the result from Step 4 with the relation in the database whose name matches the name of the head of the rule.
 
 - Optimizing Rule Evaluation
+
+1. Build the dependency graph.
+2. Build the reverse dependency graph.
+3. Run DFS-Forest on the reverse dependency graph.
+4. Find the strongly connected components (SCCs).
+5. Evaluate the rules in each component.
